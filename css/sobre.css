@@ -1,0 +1,36 @@
+.sobre-section{
+  display: flex;
+  flex-direction: column;
+  background-color: var(--dark);
+  padding: 70px 150px;
+}
+
+.sobre{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sobre img{
+  width: 250px;
+  height: 100%;
+  border: 1px solid var(--white-light);
+  border-radius: 10px;
+}
+
+.sobre.img-2{
+  margin-top: -50px;
+}
+
+.img-1 p{
+  margin: 40px 10px 20px 0;
+  
+}
+.img-2 p{
+  width: 74%;
+  margin: 70px 0 20px 20px;
+}
+
+.sobre-img img{
+  width: 100%;
+  border-radius: 10px;
+}

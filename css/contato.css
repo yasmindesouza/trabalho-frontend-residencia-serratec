@@ -1,0 +1,79 @@
+.container{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--dark);
+  padding: 70px 150px;
+}
+
+.contato-titulo{
+  width: 100%;
+}
+
+.contato{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  height: 440px;
+  width: 90%;
+  padding: 10px;
+  background-color: var(--white-light);
+  border-radius: 20px;
+  margin-right: 110px;
+}
+
+.input label, .mensagem label{
+  font-size: 20px;
+  color: var(--dark);
+}
+.input input, #msg{
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid var(--dark);
+}
+
+#msg:focus, input:focus {
+  outline-color: var(--dark);
+}
+
+.input.data-1, .input.data-2, .input.data-3, .mensagem{
+  width: 100%;
+  padding: 10px 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.input.data-2 input{
+  width: 86%;
+}
+#msg{
+  resize: none;
+  width: 620px;
+}
+
+#nome, #sobrenome{
+  width: 30%;
+}
+
+#tel{
+  width: 73%; 
+}
+
+.btn-contato{
+  padding: 10px 30px;
+  background-color: transparent;
+  border-radius: 30px;
+  transition: all 0.3s ease;
+  font-size: 16px;
+  cursor: pointer;
+  color: var(--dark);
+  line-height: 1.5;
+  border: 2px solid var(--dark);
+}
+  
+.btn-contato:hover{
+  color: var(--white-light);
+  background-color: var(--dark);
+}
+
