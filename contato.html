@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café Serrano</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/contato.css">
+    <link rel="icon" href="./css/images/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+    <img src="./css/images/logo.png" class="logo" alt="logo">
+    
+    <nav class="navbar">
+        <ul>
+            <li><a href="./index.html">Início</a></li>
+            <li><a href="./sobre.html">Sobre nós</a></li>
+            <li><a href="./contato.html">Contato</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="container">
+    <div class="contato-titulo">
+        <h1>Entre em contato</h1>
+    </div>
+    <form class="contato">
+        <div class="input data-1">
+            <label>Nome</label>
+            <input id="nome" type="text" placeholder="Nome" maxlength="50" autofocus required></label>
+            <label>Sobrenome</label>
+            <input id="sobrenome" type="text" placeholder="Sobrenome" maxlength="80" required></label>
+        </div>
+        <div class="input data-2">
+            <label >E-mail</label>
+            <input id="email" type="text" placeholder="E-mail" maxlength="70"  required></label>
+        </div>
+        <div class="input data-3">
+            <label>Telefone</label>
+            <input id="tel" type="text" placeholder="Telefone" required></label>
+        </div>
+        <div class="mensagem">
+            <label>Escreva sua mensagem</label>
+            <textarea id="msg" rows="8" maxlength="500"></textarea>
+        </div> 
+        <button class="btn-contato">Enviar</button>
+        </div>
+    </form>
+</section>
+
+<div class="footer">
+    <div class="row">
+        <div class="footer-item">
+            <h3>Localização</h3>
+            <p>Avenida Oliveira Botelho, 620<br>
+            Alto, Teresópolis - RJ</p>
+        </div>
+        <div class="footer-item">
+            <h3>Horário</h3>
+            <p>Terça a domingo <br>09:00 - 22:00 </p>
+        </div>
+        <div class="footer-item">
+            <h3>Entre em contato</h3>
+            <p>(21)3642-0000</p>
+            <p>cafeserrano@gmail.com</p>
+            <div class="redes-sociais">
+                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href=""><i class="fab fa-instagram"></i></a>
+                <a href=""><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="copyright">
+            &copy; 2021 - Turma dos feras Serratec
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
